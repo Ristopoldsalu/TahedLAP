@@ -6,6 +6,7 @@ int main(){
     char m[1000];
 
     do{
+        printf("Sisesta sone:\n");
         gets(m);
         counto = 1;
         l = strlen(m);
